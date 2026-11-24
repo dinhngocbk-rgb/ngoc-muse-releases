@@ -26,4 +26,10 @@ Tool tự kiểm tra bản mới khi mở và chọn gói đúng hệ điều h�
 
 Từ 0.9.2, tải và giải nén chạy nền; hộp cập nhật hiện riêng bước đang làm sau khi tải xong 100%. Nếu đang dùng 0.9.0/0.9.1 và gặp đứng ở 100%, tải ZIP mới tại đây, đóng tool cũ và giải nén đầy đủ để chuyển sang bản mới. Giữ nguyên thư mục dữ liệu riêng.
 
+Từ 0.9.4, bộ cài Windows xác nhận đã khởi động trước khi tool đóng và có log nếu không chạy được. Nếu bản cũ đóng sau 100% nhưng mở lại vẫn là phiên bản cũ, tải ZIP mới và giải nén đầy đủ một lần.
+
+## Khi tạo video lỗi
+
+Danh sách chỉ báo ngắn, ví dụ “Không tạo được video — lỗi 503, dịch vụ quá tải.” Bấm **Chi tiết / Prompt** để xem phản hồi Muse và lịch sử thử lại. Lỗi 500/503 của dịch vụ có thể thử lại trong giới hạn đã đặt; nếu chưa rõ Muse đã nhận prompt, cần kiểm tra hội thoại trước khi gửi lại. Tool không khóa tài khoản chỉ vì lỗi quá tải.
+
 [Xem tất cả phiên bản và ghi chú](https://github.com/dinhngocbk-rgb/ngoc-muse-releases/releases).
